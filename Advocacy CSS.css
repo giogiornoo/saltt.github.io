@@ -1,0 +1,115 @@
+﻿.header {
+    padding: 10px;
+    text-align: center;
+    background: #1a1c30;
+    color: lavender;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: beige;
+}
+
+
+    .navbar a {
+        float: left;
+        display: table;
+        color: #1a1c30;
+        text-align: initial;
+        padding: 10px 10px;
+        text-decoration: none;
+    }
+
+
+        .navbar a:hover {
+            background-color: midnightblue;
+            color: ghostwhite;
+        }
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 40px;
+    color: violet;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 40px;
+    color: violet;
+    position: absolute;
+    left: 450px;
+    top: 410px;
+}
+.main {
+    flex: 0%;
+    background-color: #1a1c30;
+    padding: 285px 200px ;
+    float: left;
+    height: 100%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: darkblue  ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("poster.jpg");
+}
+.side {
+    flex: 0%;
+    background-color: #272a4a;
+    padding: 293px;
+    display: block;
+}
+
+h1 {
+    font-size: 40px;
+    color: violet;
+    text-align: center;
+
+}
+
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.footer {
+    padding: 100px;
+    text-align: center;
+    background: beige;
+    flex: 0;
+}
+
+h3 {
+    font-size: 25px;
+    color: ghostwhite;
+    position: absolute;
+    left: 460px;
+    top: 480px;
+}
+
+h4 {
+    font-size: 30px;
+    color: ghostwhite;
+    position: absolute;
+    left: 460px;
+    top: 580px;
+}

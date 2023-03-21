@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title> Hopes and Dreams </title>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <link rel="icon" type="image/x-icon" href="star.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body style="margin:0">
+
+    <div class="header">
+        <img src="logo.png" alt="logo!" width="200" height="200" style="float:inherit" />
+        <h1> Hopes and Dreams </h1>
+        <p>May Stars Illuminate Our World </p>
+        <p> Home Page </p>
+
+
+    </div>
+
+
+    <!-- Navigation chuchu -->
+    <div class="navbar">
+        <a href="About Us.html">About Us</a>
+        <a href="advocacy.html">Advocacy</a>
+
+
+    </div>
+
+
+
+    <div class="row">
+
+
+
+        <div class="box">
+            <section>
+                <img class="slide" src="slideshow1.jpg" />
+                <img class="slide" src="slideshow2.jpg" />
+                <img class="slide" src="slideshow3.jpg" />
+                <img class="slide" src="slideshow4.jpg" />
+                <img class="slide" src="slideshow5.jpg" />
+            </section>
+
+            <script>
+
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("slide");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) { myIndex = 1 }
+                    x[myIndex - 1].style.display = "block";
+                    setTimeout(carousel, 3000);
+                }
+            </script>
+
+
+        </div>
+        <div class="side">
+
+
+
+            <div style="background-color: beige; text-align: left; vertical-align: initial; padding: 100px 100px; border: 2px solid violet; border-radius: 1px;">
+                <h1><a href="advocacy.html">Child Advocacy</a>  </h1>
+                <hr />
+                <h1>Homepage</h1>
+            </div>
+            <p> </p>
+
+        </div>
+
+
+
+    </div>
+
+
+
+    <div class="footer">
+        <h2>
+            Be part of the advocacy!
+        </h2>
+        <br />
+        <hr />
+        <h2> <a href="advocacy.html">Learn more about Hopes and Dreams Advocacy</a> </h2>
+
+
+
+        <h2>Reach out to us!</h2>
+
+        <button id="myBtn">Contact Us</button>
+
+
+        <div id="myModal" class="modal">
+
+
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>21213535341 - Contact Number</p>
+                <p>HopesAndDreamsOrg@email.com - Email Address</p>
+                <p>Follow us across social media sites!</p>
+                <p>@HopesandDreams</p>
+            </div>
+
+        </div>
+
+        <script>
+
+            var modal = document.getElementById("myModal");
+
+
+            var btn = document.getElementById("myBtn");
+
+
+            var span = document.getElementsByClassName("close")[0];
+
+
+            btn.onclick = function () {
+                modal.style.display = "block";
+            }
+
+
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+
+
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+
+
+
+
+
+
+    </div>
+
+   
+
+
+
+
+
+
+
+</body>
+</html>

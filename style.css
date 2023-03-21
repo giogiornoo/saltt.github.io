@@ -1,0 +1,177 @@
+
+.header {
+	padding: 10px;
+	text-align: center;
+	background: #1a1c30;
+	color: lavender;
+
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: beige;
+
+}
+
+
+	.navbar a {
+		float: left;
+		display: table;
+		color: #1a1c30;
+		text-align: initial;
+		padding: 10px 10px;
+		text-decoration: none;
+	}
+
+
+
+		.navbar a:hover {
+			background-color: midnightblue;
+			color: ghostwhite;
+		}
+
+* {
+	box-sizing: border-box;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+.row {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+
+.box {
+	flex: 0%;
+	background-color: lavender;
+	padding: 70px;
+	float: initial;
+}
+
+
+.side {
+	flex: 0%;
+	background-color: lavenderblush;
+	padding: 140px;
+}
+
+
+@media screen and (max-width: 500px) {
+	.row {
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 500px) {
+	.navbar a {
+		float: none;
+		width: 100%;
+	}
+}
+
+.footer {
+	padding: 200px; 
+	text-align: center; 
+	background: beige; 
+}
+
+
+
+
+* {
+	box-sizing: border-box
+}
+
+
+
+h1 {
+	font-size: 40px;
+	color: violet;
+	text-align: center;
+}
+
+p {
+	font-size: 25px;
+
+}
+.slide {
+	border: 5px solid violet;
+	border-radius: 1px;
+	padding: 1px;
+	width: 800px; 
+	height: 600px; 
+	float: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 200px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: palegoldenrod;
+	background-color: #1a1c30;
+}
+
+
+.modal-content {
+	background-color: lightgoldenrodyellow;
+	margin: auto;
+	padding: 60px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+
+.close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+	.close:hover,
+	.close:focus {
+		color: darkslategray;
+		text-decoration: none;
+		cursor: pointer;
+	}
+
+button {
+	border-color:aqua;
+	
+}
+
+
+
+

@@ -1,0 +1,149 @@
+﻿.header {
+    padding: 10px;
+    text-align: center;
+    background: #1a1c30;
+    color: lavender;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: beige;
+}
+
+
+    .navbar a {
+        float: left;
+        display: table;
+        color: #1a1c30;
+        text-align: initial;
+        padding: 10px 10px;
+        text-decoration: none;
+    }
+
+  
+
+        .navbar a:hover {
+            background-color: midnightblue;
+            color: ghostwhite;
+        }
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.main {
+    flex: 100%;
+    background-color: #232640;
+    padding: 250px;
+}
+
+.side {
+    flex: auto;
+    background-color: #FFFFF0;
+    float: inherit;
+    padding: 200px;
+    border: 10px solid palegoldenrod;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 40px;
+    color: violet;
+    text-align: center;
+}
+
+
+h2 {
+    font-size: 40px;
+}
+
+
+
+p {
+    font-size: 25px;
+}
+
+.footer {
+    padding: 60px;
+    text-align: center;
+    background: BEIGE;
+
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 200px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: palegoldenrod;
+    background-color: #1a1c30;
+}
+
+
+.modal-content {
+    background-color: lightgoldenrodyellow;
+    margin: auto;
+    padding: 60px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: darkslategray;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+
+button {
+    border-color: aqua;
+}
